@@ -31,7 +31,7 @@ export default {
       return new Response(JSON.stringify({ success: true, message: weather }), {
         headers: {
           "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Origin": "https://joeri.xyz",
         },
       });
     } catch (error) {
