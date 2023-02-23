@@ -1,0 +1,9 @@
+name = "weather-api"
+main = "src/index.js"
+account_id = '161652945513458d9274ddeace359fdf'
+workers_dev = true
+compatibility_date = "2023-02-12"
+
+[env.production]
+workers_dev = false
+route = "https://joeri.xyz/weather-api/*"
