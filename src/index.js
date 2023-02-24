@@ -42,7 +42,7 @@ export default {
           status: 500,
           headers: {
             "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Origin": "https://joeri.xyz",
           },
         }
       );
